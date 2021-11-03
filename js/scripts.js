@@ -2,6 +2,8 @@ window.addEventListener("load",()=>{
     document.getElementById("loader").classList.toggle("load-complete")
 })
 
+
+
 AmCharts.makeChart("chartdiv",
             {
                 "type": "pie",
