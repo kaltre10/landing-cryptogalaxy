@@ -1,0 +1,23 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelperez0000/landing-cryptogalaxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelperez0000/landing-cryptogalaxy/issues"
+  },
+  "homepage": "https://github.com/manuelperez0000/landing-cryptogalaxy#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.7.0"
+  }
+}

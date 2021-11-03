@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="240px"
+   height="240px"
+   viewBox="0 0 240 240"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="q2.svg">
+  <defs
+     id="defs7599">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2240">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.25125629"
+         offset="0"
+         id="stop2236" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.18090452"
+         offset="1"
+         id="stop2238" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2240"
+       id="linearGradient2242-1"
+       x1="68.869392"
+       y1="85.570679"
+       x2="142.22818"
+       y2="12.211884"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(367.8833,51.929027)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="72.90069"
+     inkscape:cy="103.2153"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7602">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6087"
+       transform="matrix(2.2429524,0,0,2.2429592,-470.96484,-791.52946)"
+       style="stroke-width:1.68506551">
+      <rect
+         rx="0"
+         transform="rotate(45)"
+         ry="0"
+         y="64.140907"
+         x="436.75269"
+         height="73.358795"
+         width="73.358795"
+         id="rect2234-4"
+         style="opacity:1;fill:url(#linearGradient2242-1);fill-opacity:1;stroke:#ffffff;stroke-width:0.33701313;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.10552763;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path2244-5"
+         d="m 211.60382,406.05776 c 103.74499,0 51.87249,51.87249 51.87249,51.87249 l 10e-6,-103.74499"
+         style="fill:none;stroke:#ffffff;stroke-width:1.3480525;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.19597988;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path2244-8-4"
+         d="m 315.34881,406.05776 c -103.745,0 -51.8725,51.87249 -51.8725,51.87249 V 354.18526"
+         style="fill:none;stroke:#ffffff;stroke-width:1.3480525;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.19597988;paint-order:normal" />
+      <text
+         id="text830-2"
+         y="422.04312"
+         x="236.9536"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.64831924px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ed9112;fill-opacity:1;stroke:none;stroke-width:0.44584024"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.64831924px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi Bold';fill:#ed9112;fill-opacity:1;stroke-width:0.44584024"
+           y="422.04312"
+           x="236.9536"
+           id="tspan828-4"
+           sodipodi:role="line">Q2</tspan></text>
+    </g>
+  </g>
+</svg>

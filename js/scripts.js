@@ -24,7 +24,7 @@ AmCharts.makeChart("chartdiv",
                 "titles": [],
                 "dataProvider": [
                     {
-                        "country": "Team Developers",
+                        "country": "Dev Team",
                         "litres": "25"
                     },
                     {

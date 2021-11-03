@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -9,8 +9,9 @@
     <title>Cryptogalaxy Online</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
-<!--     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
- -->    <!-- Google fonts-->
+    <!--     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+ -->
+    <!-- Google fonts-->
     <!-- <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" /> -->
     <!-- <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -18,17 +19,29 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
-   <!--  <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'> -->
-		
-		<!-- amCharts javascript sources -->
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/chalk.js"></script>
+    <!--  <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- amCharts javascript sources -->
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/chalk.js"></script>
 </head>
 
 <body id="page-top">
-    <div class="loader" id="loader"> 
-        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div class="loader" id="loader">
+        <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div><br>
     </div>
     <!-- Navigation-->
@@ -46,7 +59,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#tokens">Tokenomics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tokens"> Tokenomics</a></li>
                     <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
                     <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
                 </ul>
@@ -62,8 +75,9 @@
                     <hr>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5 text-uppercase">Online</h2>
                     <div class="justify-content-center">
-                        <a class="btn btn-lg bg-paper text-uppercase" href="./whitepaper/index.html">White Paper</a>
-                        <a class="btn btn-green btn-lg text-uppercase" href="https://app.cryptogalaxy.online">Play Game</a>
+                        <a class="btn btn-lg bg-paper text-uppercase mt-3" href="./whitepaper/index.html">White Paper</a>
+                        <a class="btn btn-green btn-lg text-uppercase mt-3" href="https://app.cryptogalaxy.online">Play
+                            Game</a>
                     </div>
                     <div class="pt-3 text-center text-white">
                         Contract: 0x46..6sd4 <a href="#">Copi</a>
@@ -74,26 +88,71 @@
     </header>
 
     <!-- About-->
-    <div class="text-center bg-token" id="tokens">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h2 class="text-white pt-5 text-uppercase mb-4">Tokenomics</h2>
+    <div class="bg-token" id="tokens">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="pt-5"> <i class="bi bi-pie-chart"></i>Tokenomics</h2><hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
                     <div class="tapon p-1"></div>
-                    <div class="chatr" id="chartdiv" style="width: 90%; height: 500px; background-color: #28282800;" ></div>
+                    <div class="chatr" id="chartdiv" style="width: 100%; height: 500px; background-color: #28282800;">
+                    </div>
                     <img class="img-planet w-100" src="assets/img/ipad.png" alt="cryptogalaxy" />
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="p-5" id="roadmap">
-        <h2 class="text-center">Roadmap</h2>
-        <hr>
+    <section class="roadmap py-5" id="roadmap">
+        <div class="container pb-4">
+            <h2 class=""> <i class="bi bi-card-checklist"></i>Roadmap</h2><hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 my-2">
+                    <div class="text-light-road min-h">
+                        <h1 class="text-success">Q1 2022</h1><hr>
+                        <p class="road-p text-white"><i class="bi bi-pin-angle-fill"></i> Smart Contract build<i class="bi bi-check text-success"></i></p>
+                        <p class="road-p text-white"><i class="bi bi-pin-angle-fill"></i> Landing Website <i class="bi bi-check text-success"></i></p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Launch Social Media</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Launch Expeditions</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Ships presale</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Launch Crafting</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Launch Marketplace</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Token Private Sale</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Audit Contract</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Liquidity on Pancakeswap & ID</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Influencers Marketing</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-2">
+                    <div class="text-light-road min-h">
+                        <h1 class="text-success">Q2 2022</h1><hr>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Expand developers team</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> New updates in farming game</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Start 3d game development</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Launch apha test 3d game</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-2">
+                    <div class="text-light-road min-h">
+                        <h1 class="text-success">Q3 2022</h1><hr>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Design more spaceships</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> PVP Estrategic Fights</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i> Launch beta test</p>
+                        <p class="road-p"><i class="bi bi-pin-angle-fill"></i>  launch</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="p-5" id="roadmap">
-      <h2 class="text-center">Features</h2><hr>
+        <h2 class="text-center">Features</h2>
+        <hr>
     </section>
 
     <section class="contact-section bg-black">
@@ -105,14 +164,14 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
 </body>
 
 </html>
