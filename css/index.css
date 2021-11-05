@@ -265,3 +265,38 @@ body{
   .min-h{
     min-height: 470px;
   }
+  .bg-feature{
+    border-radius: 40px;
+        
+  }
+  
+  .bg-feature-inv{
+    border-radius: 40px;
+        
+  }
+
+  .img-feature{
+    transform: scale(1.2);
+  }
+  .txt-right{
+    text-align: right;
+  }
+
+  .f-item{
+    background: linear-gradient(90deg,rgb(67,17,67),rgba(255, 255, 255, 0)); 
+  }
+  .f-materials{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.02), rgb(245,54,8) );
+  }
+  .f-ships{
+    background: linear-gradient(90deg, rgb(245,120,0), rgba(255, 255, 255, 0) );
+  }
+  .f-expeditions{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(3, 43, 38) );
+  }
+  .f-planets{
+    background: linear-gradient(90deg, rgb(6, 90, 24),rgba(255, 255, 255, 0) );
+  }
+  .img-planet{
+   margin: 0px !important;
+  }
