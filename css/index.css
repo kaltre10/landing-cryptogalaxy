@@ -292,11 +292,14 @@ body{
     background: linear-gradient(90deg, rgb(245,120,0), rgba(255, 255, 255, 0) );
   }
   .f-expeditions{
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(3, 43, 38) );
+    background: linear-gradient(90deg, rgb(3, 43, 38), rgba(255, 255, 255, 0) );
   }
   .f-planets{
-    background: linear-gradient(90deg, rgb(6, 90, 24),rgba(255, 255, 255, 0) );
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0), rgb(6, 90, 24));
   }
   .img-planet{
    margin: 0px !important;
+  }
+  .bg-black-t{
+    background-color: rgba(0, 0, 0, 0.95);
   }
